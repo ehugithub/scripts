@@ -1,0 +1,9 @@
+echo hello
+echo $?
+
+adfadfa
+
+echo $?
+echo
+
+exit 113
