@@ -1,3 +1,3 @@
 # scripts
 
-A few scripts from a random bash book.
+A few scripts from a random bash textbook.
