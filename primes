@@ -1,0 +1,28 @@
+LIMIT=1000
+
+Primes()
+{
+
+	((n = $1+1))
+shift
+#echo "_n=$n i=$i_"
+
+ if (( n=LIMIT ))
+ then echo $*
+ return 
+ fi
+
+for i; do 
+#echo "-n=$n i=$i-"
+
+	(( i * i > n )) && break
+	(( n % i )) && continue
+	Primes $n $@
+	return
+	done
+
+	Primes $n $@ $n
+}
+Primes 1
+exit $?
+
