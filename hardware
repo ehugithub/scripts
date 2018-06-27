@@ -1,0 +1,5 @@
+echo $OSTYPE
+echo $MACHTYPE
+echo $PATH
+echo $hosttype
+
