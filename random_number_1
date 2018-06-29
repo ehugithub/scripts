@@ -3,7 +3,7 @@
 # RANDOM returns a different random integer at each invocation.
 # Nominal range: 0 - 32767 (signed 16-bit integer).
 RANGE=501
-MAXCOUNT=100000
+MAXCOUNT=1000000
 count=1
 total=0
 echo

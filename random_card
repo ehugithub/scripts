@@ -1,5 +1,5 @@
 #!/bin/bash
-pick-card.sh
+#pick-card.sh
 # This is an example of choosing random elements of an array.
 # Pick a card, any card.
 Suites="Clubs
@@ -27,7 +27,4 @@ num_suites=${#suite[*]} # Count how many elements.
 num_denominations=${#denomination[*]}
 echo -n "${denomination[$((RANDOM%num_denominations))]} of "
 echo ${suite[$((RANDOM%num_suites))]}
-# $bozo sh pick-cards.sh
-# Jack of Clubs
-# Thank you, "jipe," for pointing out this use of $RANDOM.
 exit 0

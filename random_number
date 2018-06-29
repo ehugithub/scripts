@@ -15,13 +15,3 @@ let "count += 1" # Increment count.
 done
 echo "-----------------"
 # If you need a random int within a certain range, use the 'modulo' operator.
-
-# This returns the remainder of a division operation.
-RANGE=500
-echo
-number=$RANDOM
-let "number %= $RANGE"
-# ^^
-echo "Random number less than $RANGE --- $number"
-echo
-# If you need a random integer greater than a lower bound,
