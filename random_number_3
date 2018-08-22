@@ -1,0 +1,1 @@
+i=0; while [ $i -lt 10 ] ; do a=$RANDOM  ;let " a %= 10000"  ;  [ $a -lt 1000 ] && continue; echo $a; let " i+=1 "; done
